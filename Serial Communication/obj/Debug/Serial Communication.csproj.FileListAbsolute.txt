@@ -28,3 +28,13 @@ C:\Users\user\Desktop\GitHub\Serial Communication\obj\Debug\Serial Communication
 C:\Users\user\Desktop\GitHub\Serial Communication\obj\Debug\Serial Communication.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\GitHub\Serial Communication\obj\Debug\Serial Communication.exe
 C:\Users\user\Desktop\GitHub\Serial Communication\obj\Debug\Serial Communication.pdb
+C:\Users\user\Desktop\GitHub(Copy)\Serial Communication\bin\Debug\Serial Communication.exe.config
+C:\Users\user\Desktop\GitHub(Copy)\Serial Communication\bin\Debug\Serial Communication.exe
+C:\Users\user\Desktop\GitHub(Copy)\Serial Communication\bin\Debug\Serial Communication.pdb
+C:\Users\user\Desktop\GitHub(Copy)\Serial Communication\obj\Debug\Serial Communication.csprojAssemblyReference.cache
+C:\Users\user\Desktop\GitHub(Copy)\Serial Communication\obj\Debug\Serial_Communication.Form1.resources
+C:\Users\user\Desktop\GitHub(Copy)\Serial Communication\obj\Debug\Serial_Communication.Properties.Resources.resources
+C:\Users\user\Desktop\GitHub(Copy)\Serial Communication\obj\Debug\Serial Communication.csproj.GenerateResource.cache
+C:\Users\user\Desktop\GitHub(Copy)\Serial Communication\obj\Debug\Serial Communication.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\GitHub(Copy)\Serial Communication\obj\Debug\Serial Communication.exe
+C:\Users\user\Desktop\GitHub(Copy)\Serial Communication\obj\Debug\Serial Communication.pdb
