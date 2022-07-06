@@ -1,0 +1,2 @@
+uart.c:8:6:MX_USART1_UART_Init	40	static
+uart.c:54:6:MX_USART3_UART_Init	40	static

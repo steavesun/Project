@@ -1,0 +1,7 @@
+tim.c:9:6:MX_TIM2_Init	120	static
+tim.c:93:6:MX_TIM4_Init	80	static
+tim.c:144:6:analogWrite	0	static
+tim.c:185:6:analogWrite_ch1	0	static
+tim.c:218:6:analogWrite_ch2	0	static
+tim.c:249:6:analogWrite_ch3	0	static
+tim.c:280:6:analogWrite_ch4	0	static

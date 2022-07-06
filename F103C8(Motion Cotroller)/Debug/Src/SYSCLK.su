@@ -1,0 +1,2 @@
+sysclk.c:4:6:SystemClock_Config	88	static
+sysclk.c:48:6:Error_Handler	0	static

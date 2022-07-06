@@ -1,0 +1,9 @@
+main.c:914:6:Motor_Power.part.0	8	static
+main.c:163:1:__io_putchar	16	static
+main.c:178:6:strclr	0	static
+main.c:823:6:HAL_GPIO_EXTI_Callback	0	static
+main.c:914:6:Motor_Power	8	static
+main.c:947:6:Motor_Dir	8	static
+main.c:190:5:main	8	static
+main.c:237:6:HAL_UART_RxCpltCallback	24	static
+main.c:600:6:HAL_TIM_OC_DelayElapsedCallback	32	static
