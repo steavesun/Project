@@ -179,6 +179,8 @@ namespace Serial_Communication
 
                 MessageBox.Show(err.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
+
+
             }
 
 
@@ -226,7 +228,12 @@ namespace Serial_Communication
             {
 
 
+
+
                 richTextBox_Console.Text += "Car Controller : ON\n";
+
+              
+
                 if (serialPort1.IsOpen)
                 {
 
@@ -243,6 +250,7 @@ namespace Serial_Communication
 
 
                 richTextBox_Console.Text += "Car Controller : OFF\n";
+               
                 if (serialPort1.IsOpen)
                 {
                     serialPort1.Write("Key Mode = OFF\n");
@@ -267,6 +275,7 @@ namespace Serial_Communication
 
 
                 richTextBox_Console.Text += "--- Dial Mode : OFF ---\n";
+            
 
                 trackBar_m.Enabled = true;
                 trackBar_m1.Enabled = true;
