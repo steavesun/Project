@@ -779,22 +779,22 @@ namespace Serial_Communication
 
 
                             trackBar_m1.Value = trackBar_m.Value;
-                            label_m1.Text = Tx_Trackbar_Buf1;
+                            label_m1.Text = Tx_Trackbar_Buf5;
 
                             trackBar_m2.Value = trackBar_m.Value;
-                            label_m2.Text = Tx_Trackbar_Buf2;
+                            label_m2.Text = Tx_Trackbar_Buf5;
 
                             trackBar_m3.Value = trackBar_m.Value;
-                            label_m3.Text = Tx_Trackbar_Buf3;
+                            label_m3.Text = Tx_Trackbar_Buf5;
 
                             trackBar_m4.Value = trackBar_m.Value;
-                            label_m4.Text = Tx_Trackbar_Buf4;
+                            label_m4.Text = Tx_Trackbar_Buf5;
 
 
                             if (serialPort1.IsOpen)
                             {
 
-                        Tx_Trackbar_Buf5 = "5:" + Tx_Trackbar_Buf5 + "\n";
+                                Tx_Trackbar_Buf5 = "5:" + Tx_Trackbar_Buf5 + "\n";
 
                                 serialPort1.Write( Tx_Trackbar_Buf5);
 
@@ -819,13 +819,13 @@ namespace Serial_Communication
 
 
                             trackBar_m1.Value = trackBar_m.Value;
-                            label_m1.Text = Tx_Trackbar_Buf1;
+                            label_m1.Text = Tx_Trackbar_Buf5;
                             trackBar_m2.Value = trackBar_m.Value;
-                            label_m2.Text = Tx_Trackbar_Buf2;
+                            label_m2.Text = Tx_Trackbar_Buf5;
                             trackBar_m3.Value = trackBar_m.Value;
-                            label_m3.Text = Tx_Trackbar_Buf3;
+                            label_m3.Text = Tx_Trackbar_Buf5;
                             trackBar_m4.Value = trackBar_m.Value;
-                            label_m4.Text = Tx_Trackbar_Buf4;
+                            label_m4.Text = Tx_Trackbar_Buf5;
 
 
                             if (serialPort1.IsOpen)
@@ -1172,9 +1172,6 @@ namespace Serial_Communication
 
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
+ 
     }
 }
