@@ -6654,11 +6654,11 @@ void Motor_Dir(uint8_t dir)
  80028b6:	7819      	ldrb	r1, [r3, #0]
  80028b8:	2931      	cmp	r1, #49	; 0x31
  80028ba:	f040 80fa 	bne.w	8002ab2 <HAL_UART_RxCpltCallback+0x3ce>
-					ch1_pwm_resolution =  atoi(uart3.rxbuf); ;
+					ch1_pwm_resolution =  atoi(uart3.rxbuf);
  80028be:	485a      	ldr	r0, [pc, #360]	; (8002a28 <HAL_UART_RxCpltCallback+0x344>)
 					selection = '\0';
  80028c0:	701a      	strb	r2, [r3, #0]
-					ch1_pwm_resolution =  atoi(uart3.rxbuf); ;
+					ch1_pwm_resolution =  atoi(uart3.rxbuf);
  80028c2:	f000 fe30 	bl	8003526 <atoi>
  80028c6:	4b59      	ldr	r3, [pc, #356]	; (8002a2c <HAL_UART_RxCpltCallback+0x348>)
  80028c8:	6018      	str	r0, [r3, #0]
@@ -6870,11 +6870,11 @@ void Motor_Dir(uint8_t dir)
 				else if( selection ==  '2')
  8002ab2:	2932      	cmp	r1, #50	; 0x32
  8002ab4:	d108      	bne.n	8002ac8 <HAL_UART_RxCpltCallback+0x3e4>
-					ch2_pwm_resolution =  atoi(uart3.rxbuf); ;
+					ch2_pwm_resolution =  atoi(uart3.rxbuf);
  8002ab6:	482e      	ldr	r0, [pc, #184]	; (8002b70 <HAL_UART_RxCpltCallback+0x48c>)
 					selection = '\0';
  8002ab8:	701a      	strb	r2, [r3, #0]
-					ch2_pwm_resolution =  atoi(uart3.rxbuf); ;
+					ch2_pwm_resolution =  atoi(uart3.rxbuf);
  8002aba:	f000 fd34 	bl	8003526 <atoi>
  8002abe:	4b31      	ldr	r3, [pc, #196]	; (8002b84 <HAL_UART_RxCpltCallback+0x4a0>)
  8002ac0:	6018      	str	r0, [r3, #0]
@@ -6884,11 +6884,11 @@ void Motor_Dir(uint8_t dir)
 				else if ( selection == '3')
  8002ac8:	2933      	cmp	r1, #51	; 0x33
  8002aca:	d108      	bne.n	8002ade <HAL_UART_RxCpltCallback+0x3fa>
-					ch3_pwm_resolution =  atoi(uart3.rxbuf); ;
+					ch3_pwm_resolution =  atoi(uart3.rxbuf);
  8002acc:	4828      	ldr	r0, [pc, #160]	; (8002b70 <HAL_UART_RxCpltCallback+0x48c>)
 					selection = '\0';
  8002ace:	701a      	strb	r2, [r3, #0]
-					ch3_pwm_resolution =  atoi(uart3.rxbuf); ;
+					ch3_pwm_resolution =  atoi(uart3.rxbuf);
  8002ad0:	f000 fd29 	bl	8003526 <atoi>
  8002ad4:	4b2c      	ldr	r3, [pc, #176]	; (8002b88 <HAL_UART_RxCpltCallback+0x4a4>)
  8002ad6:	6018      	str	r0, [r3, #0]
@@ -6912,11 +6912,11 @@ void Motor_Dir(uint8_t dir)
 				else if ( selection == '5') // M狼 胶农费官 单捞磐 贸府
  8002af4:	2935      	cmp	r1, #53	; 0x35
  8002af6:	f47f aeea 	bne.w	80028ce <HAL_UART_RxCpltCallback+0x1ea>
-					pwm_resolution =  atoi(uart3.rxbuf); ;
+					pwm_resolution =  atoi(uart3.rxbuf);
  8002afa:	481d      	ldr	r0, [pc, #116]	; (8002b70 <HAL_UART_RxCpltCallback+0x48c>)
 					selection = '\0';
  8002afc:	701a      	strb	r2, [r3, #0]
-					pwm_resolution =  atoi(uart3.rxbuf); ;
+					pwm_resolution =  atoi(uart3.rxbuf);
  8002afe:	f000 fd12 	bl	8003526 <atoi>
  8002b02:	4b23      	ldr	r3, [pc, #140]	; (8002b90 <HAL_UART_RxCpltCallback+0x4ac>)
  8002b04:	6018      	str	r0, [r3, #0]

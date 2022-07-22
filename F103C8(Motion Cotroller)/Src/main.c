@@ -520,7 +520,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 				{
 
 					selection = '\0';
-					ch1_pwm_resolution =  atoi(uart3.rxbuf); ;
+					ch1_pwm_resolution =  atoi(uart3.rxbuf);
 					analogWrite_ch1(ch1_pwm_resolution);
 					//	  printf("CH1 PWM Resolution : %d\n",ch1_pwm_resolution);
 
@@ -528,7 +528,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 				else if( selection ==  '2')
 				{
 					selection = '\0';
-					ch2_pwm_resolution =  atoi(uart3.rxbuf); ;
+					ch2_pwm_resolution =  atoi(uart3.rxbuf);
 					analogWrite_ch2(ch2_pwm_resolution);
 					//	  printf("CH2 PWM Resolution : %d\n",ch2_pwm_resolution);
 
@@ -536,7 +536,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 				else if ( selection == '3')
 				{
 					selection = '\0';
-					ch3_pwm_resolution =  atoi(uart3.rxbuf); ;
+					ch3_pwm_resolution =  atoi(uart3.rxbuf);
 					analogWrite_ch3(ch3_pwm_resolution);
 					//	  printf("CH3 PWM Resolution : %d\n",ch3_pwm_resolution);
 
@@ -554,7 +554,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 				{
 
 					selection = '\0';
-					pwm_resolution =  atoi(uart3.rxbuf); ;
+					pwm_resolution =  atoi(uart3.rxbuf);
 					analogWrite(pwm_resolution);
 					//   printf("PWM Resolution : %d\n",pwm_resolution);
 
